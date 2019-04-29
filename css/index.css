@@ -115,7 +115,24 @@ header .logo {
 header nav {
     display:flex;
     flex-direction: column;
+    width: 100%;
+    margin-top: 25px;
 }
+header .logo {
+    vertical-align: top;
+    display: flex;
+    margin-top: 15px;
+  }
+header nav a {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 28px;
+    color: gray;
+    text-decoration: none;
+    margin-top: 25px;
+    border-top: 1px solid black;
+  }
 header {
     display: flex;
 }
