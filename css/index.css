@@ -118,9 +118,15 @@ header nav {
     width: 100%;
     margin-top: 25px;
 }
+header{
+    display:flex;
+    flex-direction: column;
+
+}
 header .logo {
     vertical-align: top;
-    display: flex;
+    position: absolute;
+    top: 0;
     margin-top: 40px;
   }
 header nav a {
